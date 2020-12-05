@@ -1,8 +1,54 @@
-.inputRow {
-    display: flex;
-    margin-left: 10px;
+.text {
+    display: inline-block;
+    width: 80px;
 }
 
-.secondRow {
-    margin-top: 10px;
+.input {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.appContainer {
+    width: 400px;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.inputContainer {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.buttonContainer {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.listContainer {
+    border: solid 1px #cccccc;
+    width: 365px;
+    position: absolute;
+    right: 10px;
+}
+
+.app {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.listContainer .contentContainer {
+    display: flex;
+    justify-content: space-between;
 }

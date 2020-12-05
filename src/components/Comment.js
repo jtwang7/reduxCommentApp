@@ -19,8 +19,8 @@ class Comment extends Component {
     render() {
         return (
             <div>
-                <div>
-                    {this.props.content}
+                <div className="contentContainer">
+                    <span className="content">{this.props.content}</span>
                     <Button
                         type="link"
                         onClick={() => (this.deleteComment(this.props.index))}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CommentInput from "./components/CommentInput"
 import CommentList from './components/CommentList';
+import "./components/comment.css"
 
 class CommentApp extends Component {
     constructor(props) {
@@ -10,8 +11,12 @@ class CommentApp extends Component {
     render() {
         return (
             <div>
-                <CommentInput />
-                <CommentList />
+                <div className="app">
+                    <CommentInput />
+                    <div className="listContainer">
+                        <CommentList />
+                    </div>
+                </div>
             </div>
         );
     }
